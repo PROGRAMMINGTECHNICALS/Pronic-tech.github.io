@@ -1,0 +1,50 @@
+form{
+    text-align: center;
+    background-color: rgb(13, 13, 221);
+    max-width: 40ch;
+    padding-bottom: 5ch;
+    border-radius: 12px;
+ 
+}
+.lgin{
+    margin-top: 12px;
+    padding-inline: 92px;
+    padding-bottom: 12px;
+    text-align: center;
+    
+}
+.caption{
+    background-color: rgb(10, 231, 10);
+    padding-block: 12px;
+    border-radius: 5px;
+}
+.login{
+    color: rgb(85, 255, 6);
+    font-size: 16px;
+}
+.login:hover{
+    text-decoration-line: underline;
+    color: rgb(85, 255, 6);
+    text-align: center;
+}
+.sub{
+    color: black;
+    background-color: rgb(255, 230, 0);
+    padding-inline: 170px;
+    margin-top: 12px;
+    padding-block: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.sub:hover{
+    font-size: 16px;
+    color: rgb(1, 1, 253);
+}
+.enter{
+    text-align: center;
+    background-color: rgb(13, 13, 221);
+    max-width: 40ch;
+    padding-bottom: 5ch;
+    border-radius: 12px;
+    padding-top: px;
+}

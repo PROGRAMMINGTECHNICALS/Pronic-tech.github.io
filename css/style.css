@@ -1,0 +1,166 @@
+
+/*the css for the temperate of the website  */
+body{
+background-color: black;
+}
+a,nav{
+    color: white;
+    background-color: black;
+    margin-top: -6pc;
+    margin-left: -8px;
+    padding-left: 10px;    
+    padding-right: 14.5px;        
+}
+
+a,li{
+    text-decoration-line: none;
+    display: inline;
+    font-size: 23px;
+    margin-left: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+a:hover,li:hover{
+    color: yellow;
+     text-decoration-line: none;
+    
+    
+
+}
+nav{
+
+    margin-top: -125px;
+    position: fixed;
+    font-size: 4ch;
+    max-width: 120pc;
+
+    
+}
+span{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: prg;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+
+}
+.img{
+    max-width: 200px;
+    margin-top: 42px;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 1pc;
+
+
+}
+
+#index{
+    font-size: 5ch;
+    font-family: serif;
+    animation-name: prg;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    color: white;
+}
+.pro{
+    text-align: center;
+
+}
+
+/*end of temperate*/
+
+/*home page*/
+@keyframes pg {
+    0%   {
+         
+         opacity: 0;
+         margin-top: 100px;
+        }
+    100%  {
+        
+        opacity: 1;
+        margin-top: 100px;
+        }
+}
+.tec{
+    animation-name: pg;
+    animation-duration: 11s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    color:yellow;
+    font-size: 9ch;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    
+    
+    
+    
+}
+@keyframes intro {
+    0%{
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
+
+
+    }
+    50%{
+    background-image: url(../img/back1.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box; 
+    
+    
+
+    
+    }
+    100%{
+    background-image: url(../img/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;  
+
+ 
+    }
+}
+.intr{
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
+    margin-top: 5pc;
+    animation-name: intro;
+    animation-duration: 20s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    padding-right: 2px;
+    height: 35pc;
+    margin-left: -8px;
+    
+    
+    
+}
+/*end of home page*/
+.w3-container w3-center w3-animate-bottom{
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+/*project css*/
